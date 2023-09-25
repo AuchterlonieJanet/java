@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background: wheat;
+    width: 270px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 15px 15px 0 0; 
+}
+
+.card-image {
+    background-color: aqua;
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car-1{
+    background-image: url(imagenes/1.webp);
+}
+
+.car-2{
+    background-image: url(imagenes/2.webp);
+}
+
+.car-3{
+    background-image: url(imagenes/3.webp);
+}
+
+.car h2{
+    padding: 10px;
+}
+
+.card p{
+    backdrop-filter: rgb(23, 24, 23);
+    color: wheat;
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px
+}
+
+.card:hover{
+    background-color: beige;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;e@
+}
